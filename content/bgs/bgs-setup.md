@@ -18,6 +18,10 @@ BGS also requires some free 3rd party packages you can get from the Asset Store.
 - [TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126): A replacement for Unity's default UI text rendering. You are probably using this already.
 - [DoTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676): This is not required by BGS but some of the BGS plug-ins might need it. 
 
+### Tutorials
+
+The easiest way to get started with BGS is to watch some of the [<i class="fa fa-youtube" aria-hidden="true"></i> tutorial videos](https://www.youtube.com/playlist?list=PLuaBtUXEKcdJFTn_N5rG7CQZfB57dcQDy). It is a big systems, especially with plug-ins present, with many interacting parts. You may also [<i class="fa fa-archive" aria-hidden="true"></i> download](https://goo.gl/V898p7) sample projects.
+
 ### Data & Assets
 
 The BGS package and any of its plug-in you install can be found in the `Assets/Tools/` folder.
