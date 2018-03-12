@@ -32,7 +32,7 @@ Blox Game Systems (BGS) is a core system which provide features to game-genre sp
 - Player Session system for loading/saving (short term)
 - Localization system (short term)
 - Blox Visual Scripting (long term)
-- More game genre specific plug-in (long term)
+- More game genre specific plug-ins (long term)
 
 #### Supported Build Targets
 
