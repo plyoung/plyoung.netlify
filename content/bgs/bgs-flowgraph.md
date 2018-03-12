@@ -87,7 +87,7 @@ Connected to from Flow-out pins.
 
 The top pin of a node is the flow-in pin of a node. There is always only one of these. More than one node can connect to this pin to redirect its flow to this node. This pin can only be used in Graphs which has "Start" node as 1st node. The "Return" type graphs can't use it.
 
-Execution/ flow will continue on one of this node's Flow-out pins if it has any if flow entered via its Flow-in pin.
+Execution/ flow will continue on one of this node's Flow-out pins if it has any and flow entered via its Flow-in pin.
 
 #### Flow-out
 
@@ -105,15 +105,15 @@ Connected to from Value-out, or none.
 
 These are on the left-hand side of a node. They are normally present where a node supports input data from other nodes. They may also be optional in some cases since the node might either take a value on the pin or one entered in the node's inspector.
 
-Numbering of these pins starts at with the top-most of the pins as 1, follow by 2, and so on when there are more than one of these pins. You might see labels like [1] and [2], etc on the Node or its Canvas. This means Value-in nodes [1], [2], etc.
+Numbering of these pins starts with the top-most of the pins as 1, followed by 2, and so on when there are more than one of these pins. You might see labels like [1] and [2], etc on the Node or its Inspector. This means Value-in nodes [1], [2], etc.
 
-The node (A) will make a call to the node (B) connected to this pin when node A executes. Node B would then calculate a value and return it. Node B will not continue execution on its Flow-out node in this case but it might make calls via its own Value-in pins to any nodes connected there.
+Use-case example; The node (A) will make a call to the node (B) connected to this pin when node A executes. Node B would then calculate a value and return it. Node B will not continue execution on its Flow-out pin, if it has one, in this case but it might make calls via its own Value-in pins to any nodes connected there.
 
 #### Value-out
 
 Connects to Flow-in pins, or nothing.
 
- This pin is located on the right-hand side of a node. There can be only one or no Value-out pin per node. This is where a node will provide a value it calculated. A connected node will make a call to this node via its Value-out pin to ask it to calculate and return a value.
+ This pin is located on the right-hand side of a node. There can be only a maximum of one Value-out pin per node. This is where a node will provide a value it calculated. A connected node will make a call to this node via its Value-out pin to ask it to calculate and return a value to the node connected to this pin.
 
 ### Blackboard
 

@@ -9,7 +9,7 @@ Some variables can be saved and restored via the persistence system (**in develo
 
 ### Variable Groups
 
-The variables are defined as certain groups of variables; Global Variables, Blackboard, Meta Properties, Blox Variables, and Blox Event Variables. The grouped used will depend on where it is needed.
+The variables are defined as certain groups of variables; Global Variables, Blackboard, Meta Properties, Blox Variables, and Blox Event Variables. The group used will depend on where it is needed.
 
 **Global Variables**
 

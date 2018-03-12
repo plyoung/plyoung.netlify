@@ -81,7 +81,7 @@ Place on a slider, allowing player to change a volume type's value.
 
 UI updaters help create a bind between UI elements and internal data. They can automatically update UI elements when internal values changes or automatically update internal data when user input occurs on a UI element. The binding is handled via [FlowGraph](/bgs/bgs-flowgraph/).
 
-All updaters has a [Blackboard (variables)](/bgs/bgs-vars/). Some might update a **uivalue** variable on the Blackboard. This variable is updated with the element's current value when it changes.
+All updaters have a [Blackboard (variables)](/bgs/bgs-vars/). Some might update a **uivalue** variable on the Blackboard. This variable is updated with the element's current value when it changes.
 
 ##### GUI/Updaters/Active State
 
