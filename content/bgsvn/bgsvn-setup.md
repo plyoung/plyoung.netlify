@@ -45,6 +45,8 @@ There will normally be only one Unity scene which contains the main controller a
 
 The VN Engine nodes can be found under the `VN Engine` category.
 
+The VN Engine adds a new [Test Scene] button to the FlowGraph toolbar. Use this to quickly test the active Global FlowGraph. It is like pressing the Unity play button so the scene with the VN Engine controller in it should be open. You may also use the drop-down to choose whether the graph should execute from the Start node or from the currently selected node. Keep in mind that there could be errors if you choose to execute from a node which depends on previous nodes having made changes to the scene.
+
 ### Main Editor
 
 The VN Engine adds a new tab to the main editor where some settings can be changed and data defined.
