@@ -11,7 +11,7 @@ pre = "<b> </b>"
 &nbsp;&nbsp;|&nbsp;&nbsp;
 [<i class="fa fa-youtube" aria-hidden="true"></i> Videos](https://www.youtube.com/playlist?list=PLuaBtUXEKcdJFTn_N5rG7CQZfB57dcQDy)
 
-Blox Game Systems (BGS) is a core system which provide features for game-genre specific plug-ins. It can also be used stand-alone if you are only interested in the features it presents. The goal of this tool is to provide a no-coding required environment but that can only be achieved fully if you install one of the game-genre specific plug-ins.
+Blox Game Systems (BGS) is a core system which provide features to game-genre specific plug-ins. It can also be used stand-alone if you are only interested in the features it presents. The goal of this tool is to provide a no-coding required environment but that can only be achieved fully if you install one of the game-genre specific plug-ins.
 
 #### Features
 
