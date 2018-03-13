@@ -8,7 +8,7 @@ pre = "<b> </b>"
 # VN Engine
 
 [<i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Asset Store](https://assetstore.unity.com/publishers/380) | 
-[<i class="fa fa-youtube" aria-hidden="true"></i> Videos](https://www.youtube.com/playlist?list=PLuaBtUXEKcdJFTn_N5rG7CQZfB57dcQDy)
+[<i class="fa fa-youtube" aria-hidden="true"></i> Videos](https://www.youtube.com/playlist?list=PLuaBtUXEKcdK9UtD8rx3tYMfLzPRawwOV)
 
 The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph nodes and other systems commonly needed while developing a visual novel type game. Some of these systems might also be useful to other types of games so please have a look at what is provided and if it can be useful to you when working with Blox Game Systems.
 
