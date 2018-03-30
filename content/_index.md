@@ -1,10 +1,14 @@
----
-title: "plyoung"
----
-
-### Blox Game Systems and plug-ins are not yet available. Please follow me on [<i class="fa fa-twitter" aria-hidden="true"></i> Twitter](https://twitter.com/pl_young) to be notified when it is available on the Unity Asset Store.
++++
+title = "plyoung"
++++
 
 ## Assets
+
+<!-- Blox Game Systems -->
+<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/113619/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
+
+<!-- VN Engine for BGS -->
+<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/113756/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
 
 <!-- Blox 3 -->
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/62473/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
