@@ -44,5 +44,5 @@ BGs includes a few main editors that you will interact with regularly. You will 
 
 **FlowGraph**
 
-`menu: BGS > Global FlowGraph` This editor allows you to edit FlowGraphs. FlowGraphs are mainly used for creating story flow/ character dialogue or conversation. There are also FLowGraphs for getting and setting data. These are mainly used by the BGS UI updaters.
+`menu: BGS > Global FlowGraph` This editor allows you to edit FlowGraphs. FlowGraphs are mainly used for creating story flow/ character dialogue or conversation. There are also FlowGraphs for getting and setting data. These are mainly used by the BGS UI updaters.
 

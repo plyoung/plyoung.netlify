@@ -15,7 +15,7 @@ The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph no
 #### Features
 
 - The VNEngine component manages complete flow of the game and manages showing and hiding your menus and in-game UI as needed.
-- Adds new FLowGraph toolbar options which makes is easy to test a scene from the start of an active graph or any of its selected nodes.
+- Adds new FlowGraph toolbar options which makes is easy to test a scene from the start of an active graph or any of its selected nodes.
 - New FlowGraph nodes:
 	+ Start and end game.
 	+ Change backgrounds.
