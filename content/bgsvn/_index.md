@@ -15,6 +15,7 @@ The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph no
 #### Features
 
 - The VNEngine component manages complete flow of the game and manages showing and hiding your menus and in-game UI as needed.
+- Saving and restoring game sessions via BGS' Persistence system.
 - Adds new FlowGraph toolbar options which makes is easy to test a scene from the start of an active graph or any of its selected nodes.
 - New FlowGraph nodes:
 	+ Start and end game.
@@ -25,7 +26,6 @@ The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph no
 #### Planned features (in development)
 
 - Hotspot Overlays helps you create areas of a background which the player can click on to trigger an event (short term)
-- Integration with BGS' Player Session system for loading/saving, when that is done (short term)
 - Integration with BGS' Localization system, when that is done (short term)
 
 #### Supported Build Targets

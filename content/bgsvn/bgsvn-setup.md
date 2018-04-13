@@ -39,6 +39,7 @@ There will normally be only one Unity scene which contains the main controller a
 - VN Camera: The main 2D camera. Used when calculating what the size of a background image should be for example.
 - Menu UI: The GameObject containing the "main menu" of your game.
 - In Game UI: The GameObject containing the "in-game" UI of the game (ex. the the dialogue panels). When a new game is started (or game session restored) the main menu is set inactive while this GameObejct will be activated.
+- Menu Song: A song which will be started when the menu is shown. This song will be stopped when the story FlowGraph is started via new game or loading of a previous session.
 - Blackboard: The [Blackboard](/bgs/bgs-vars/) accessible to graphs executed by the VN Engine.
 
 ### FlowGraph

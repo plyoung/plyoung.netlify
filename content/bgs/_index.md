@@ -19,6 +19,7 @@ Blox Game Systems (BGS) is a core system which provide features to game-genre sp
 - Global Variables for easily defining and accessing global data/ properties.
 - Sound volume control system with volume categories and a component which will auto-update Sound Sources set the categories.
 - Bootstrap: manage game startup and auto-loading scenes. This also works while testing in Unity so that required scenes are loaded when testing a scene you are working on.
+- Player Session/ Persistence system for loading/saving. Can save to Json formatted or Compressed files.
 - Attributes System: mainly as a support system for plug-ins. This can be used to define character stats and how they influence each other's values via graphs and formulas to auto update when one value changes.
 - FlowGraph: A node based editor for creating dialogue/conversation or to support other systems which needs to get/set values. It is not a full blown visual scripting system but does have nodes to perform logical operation like conditional checks or mathematics. It can get and set values from various systems like the BGS Variables. It's main purpose is to build story flow via Graphs containing Nodes. It also has two other types of Graphs for getting values or setting values (performing short actions) - these are used by systems which need to get or set values in other parts of BGS. The UI updaters for example uses these type of FlowGraphs.
 - UI components
@@ -26,10 +27,10 @@ Blox Game Systems (BGS) is a core system which provide features to game-genre sp
 	+ UI Window/Panel Manager to easily switch active panels without scripting.
 	+ Helper UI elements to easily update settings like resolution, quality, and sound volume.
 	+ Dialogue, Button, and Generic panel components for use by the associated FlowGraph nodes (for example to show a conversation with a character).
+	+ Profile, Save, and Load panel components for handling UI around player session saving and loading (persistence).
 
 #### Planned features (in development)
 
-- Player Session system for loading/saving (short term)
 - Localization system (short term)
 - Blox Visual Scripting (long term)
 - More game genre specific plug-ins (long term)

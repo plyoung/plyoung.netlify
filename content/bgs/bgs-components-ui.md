@@ -149,6 +149,17 @@ Get and/or set the value of a slider.
 - valueGetter: The bind used to get the value to set the target element with. The graph must return a number (float)
 - valueSetter: The bind used to update internal data when the player entered a value in the UI.
 
+##### GUI/Updaters/Text Params
+
+Changes text on target TextMehs Pro element by inserting values wherever {0}, {1}, {2}, etc occurs in the target text. It does not replace all the text in the target like the Text updaters do but only the occurrences of {0}, {1}, etc depending on how many graphs are linked to this component.
+
+Example: Original text on the UI element is "My name is {0}".
+
+If you now use the `Text Params` updater on this text it will get a value through a graph, for example 'Leslie', and replace the {0} with that value so that the UI element then read "My name is Leslie".
+
+- targetElement: Target text element.
+- valueGetter: The bind used to get the value to set the target element with. The graph must return a string (text) value.
+
 ##### GUI/Updaters/Text (TMPro)
 
 Changes text on target TextMehs Pro element.
