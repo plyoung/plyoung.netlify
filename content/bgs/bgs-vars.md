@@ -1,11 +1,11 @@
 +++
 title = "Variables"
-weight = 32
+weight = 20
 +++
 
 Blox Game Systems includes a variables systems which helps you to define data/ values to be used in the game.
 
-Some variables can be saved and restored via the persistence system (**in development**). Only certain types of variable values can be saved via the persistence system. The UnityObject, Prefab, GameObject, and Component types can not be saved during a game session.
+![P-icon](/images/vars/01.png?classes=inline,border) Some variables can be saved and restored via the [persistence system](/bgs/bgs-mained/bgs-mained-main/#persistence). Only certain types of variable values can be saved via the persistence system. The UnityObject, Prefab, GameObject, and Component types can not be saved during a game session. A small **"P"** icon next to the variable can be toggled to indicate whether the variable entry should take part in persistence. Change it to a blue icon to enable, or black to disable. A gray icon means it can not be toggled and will not take part in persistence.
 
 ### Variable Groups
 
@@ -39,7 +39,7 @@ _These are not yet available and will be part of the Blox Visual Scripting syste
 
 ### Variables Editor
 
-![FlowGraph](/images/vars/00.png?height=100px&classes=border,shadow)
+![Variables](/images/vars/00.png?height=100px&classes=border,shadow)
 
 All variables that can be defined using the same visual editor. 
 

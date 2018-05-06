@@ -27,9 +27,27 @@ This section contains various settings needed by other systems of BGS.
 - Minimum Resolution: The minimum screen width and height that will be presented by the Settings Manager.
 - Namespaces & Classes: The namespaces and classes to scan whenever looking for members. For example during member binding or when displaying a list of members that can be turned into Blocks.
 
+### Persistence
+
+![Persistence](/images/main-ed/07.png?height=100px&classes=border,shadow)
+
+The persistence system is what is used to save and load player game sessions in-game (at runtime). It supports player profiles and makes use of save slots unique per player profile. Player profiles are optional however and if you do not set an active profile, via help of the Profiles Panel, then the default will simply be active.
+
+There are [UI components](/bgs/bgs-components-ui/#persistence) you can use to help in building an interface for profiles, save panel, and load panel. This is the preferred way of building the UI around this system.
+
+Many systems tie into this one and provide automatic saving and restoring of data while you simply have to select what can be saved, where applicable (like in case of Variables and Game Data systems).
+
+This system save data to a folder provided by Unity. This location will depend on what platform the game is running and is provided by the Unity property, [persistentDataPath](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html). You can see the path that will be used while running the game in the editor (note that this location might differ for stand-alone builds). You can also quickly open the location in the OS file browser by clicking on [Open Location].
+
+Save data can get corrupt if you saved a play session and then made a lot of changes to the game. In this case you will want to delete all save data via the [Delete All Saves] button; or by simply deleting the folder the saves files are stored in.
+
+- Compression: You can select whether the save data should be compressed or not. When compression is selected the data will be saved in an unreadable compressed format. If you select none then the data will be saved as plain text in a Json format. This format is relatively easy to read and can help with debugging problems in the save data.
+- Formatting: Available when no compression selected. Determines how "pretty" the Json is formatted.
+- Screenshots: Do not enable this if you will not be showing a thumb in the UI for save slots. This takes up extra space and makes saving slower while a screenshot is taken a and saved.
+
 ### Global Variables
 
-![Main Settings](/images/main-ed/02.png?height=100px&classes=border,shadow)
+![Global Variables](/images/main-ed/02.png?height=100px&classes=border,shadow)
 
 Here you can define what Global Variables are present in the game. This is the same as editing the component found on the `Assets/projectData/GameGlobal` prefab.
 
@@ -37,6 +55,6 @@ Refer to the [section on variables](/bgs/bgs-vars/) to learn more about BGS' var
 
 ### Attribute Defs
 
-<!--![Main Settings](/images/main-ed/03.png?height=100px&classes=border,shadow)-->
+<!--![Attribute Defs](/images/main-ed/03.png?height=100px&classes=border,shadow)-->
 
 _This is not currently used_

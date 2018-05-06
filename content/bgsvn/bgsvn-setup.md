@@ -7,17 +7,9 @@ There is a [<i class="fa fa-youtube" aria-hidden="true"></i> video tutorial](htt
 
 It is assumed that you have read the [documentation for Blox Game Systems](/bgs/) before you continue with the documentation for this plug-in.
 
-### Requirements
+### Setup
 
-All [requirements listed for BGS](/bgs/bgs-setup/#requirements) must be met.
-
-**Packages**
-
-This plug-in requires the following packages:
-
-- [Blox Game Systems](https://assetstore.unity.com/publishers/380): Core system.
-- [TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126): UI text rendering.
-- [DoTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676): Tweening/ animation.
+Follow the [BGS setup](/bgs/bgs-setup/#requirements) and then import the VN Engine after that is done.
 
 ### Misc Settings
 

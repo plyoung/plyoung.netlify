@@ -5,17 +5,36 @@ weight = 30
 
 The BGS Components can be found under `menu: Component/BGS`. 
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 #### 2D
 
 ##### 2D/Sprite to Screen Scaler
 
 Auto scales a sprite to screen size according to selected settings. *None, ScaleAndCrop, FitToWidth, FitToHeight, FitToWidthAndHeight, StretchWidth, StretchHeight, StretchWidthAndHeight*.
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+#### Cameras
+
+##### Cameras/Simple Camera 2D
+
+*not yet completed*
+
+- targetCamera: Target Unity camera. Should be Orthographic camera.
+- panLimits: Limits how far the camera may be moved from the zero position.
+- zoomSpeed: Zoom speed.
+- zoomLimit: Limit how far camera may zoom in/out. This changes the Orthographic size to create a zoom effect.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 #### Data
 
 ##### Data/Meta Properties
 
 This is used to add BGS variables on a GameObject. These variables can later be accessed by BGS systems and plug-ins pr your own scripts. Have a look at the [variables documentation](/bgs/bgs-vars/) to learn more about using BGS Variables.
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 #### Helpers
 

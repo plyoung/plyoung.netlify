@@ -5,22 +5,35 @@ weight = 2
 
 This page will explain the steps to take when creating a new Blox Game Systems (BGS) based project.
 
-### Requirements
+### Setup
 
-**.NET 4.x**
+**1) .NET 4.x**
 
 After creating a new project you need to make sure that the scripting runtime is set to **.NET 4.x**. There will be errors if this is not set. Go to the player settings `menu: Edit > Project Settings > Player` and find the **Scripting runtime version** option. If you had to change this you will need to restart Unity now.
 
-**Packages**
+**2) Packages: TextMesh Pro**
 
-BGS also requires some free 3rd party packages you can get from the Asset Store.
+[TextMesh Pro](https://assetstore.unity.com/search?q=textmesh&q=pro) is a replacement for Unity's default UI text rendering. You are probably using this already. This can be installed via the Unity Package Manager `menu: Window > Package Manager`.
 
-- [TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126): A replacement for Unity's default UI text rendering. You are probably using this already.
-- [DoTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676): This is not required by BGS but some of the BGS plug-ins might need it. 
+**3) Packages: DoTween**
+
+[DoTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) (free) is a fast, efficient, fully type-safe object-oriented animation engine, optimized for C#. It is required by some systems in BGS and BGS plug-ins.
+
+Be sure to run the setup before you continue. Open the utility panel `menu: Tools > Demigiant > DOTween Utility Panel`  and press the setup button.
+
+**4) Install BGS and its plug-ins**
+
+Now you can import Blox Game Systems without error. If you mixed up the steps and installed BGS first you should still be fine after completing all the steps. You will simply get some error messages in the UNity console while performing the steps.
+
+BGS plug-ins should be installed after BGS is installed.
+
+After installing BGS or a BGS plug-in you will want to run the data check to make sure some default data is present in the project. This is done via `menu: BGS > Check BGS Data`. You only have to do this once after BGS or a new BGS plug-in was installed.
+
+Your **Build Settings** should now show a *00-bootstrap* scene as the 1st in the list. This scene should always appear 1st in the list and is needed by BGS to auto-load other scenes and global prefabs during startup. Do not edit or move this scene from its location in `Assets/projectData/Scenes/`.
 
 ### Tutorials
 
-The easiest way to get started with BGS is to watch some of the [<i class="fa fa-youtube" aria-hidden="true"></i> tutorial videos](https://www.youtube.com/playlist?list=PLuaBtUXEKcdJFTn_N5rG7CQZfB57dcQDy). It is a big systems, especially with plug-ins present, with many interacting parts. You may also [<i class="fa fa-archive" aria-hidden="true"></i> download](https://goo.gl/V898p7) sample projects.
+The easiest way to get started with BGS is to watch some of the [<i class="fa fa-youtube" aria-hidden="true"></i> tutorial videos](/tutorials/). It is a big systems, especially with plug-ins present, with many interacting parts. You may also [<i class="fa fa-archive" aria-hidden="true"></i> download](/tutorials/) sample projects to help get started with BGS or a BGS plug-in.
 
 ### Data & Assets
 
@@ -36,13 +49,21 @@ Your **Build Settings** should now show a *00-bootstrap* scene as the 1st in the
 
 ### The Editors
 
-BGs includes a few main editors that you will interact with regularly. You will probably want to open them now and dock in Unity for quick access.
+BGS includes a few main editors that you will interact with regularly. You will probably want to open them now and dock in Unity for quick access.
+
+**Toolbar**
+
+`menu: BGS > Toolbar` This opens a toolbar window which you can dock somewhere. It provides a quick way to open a BGS  main editor.
 
 **Main Editor**
 
-`menu: BGS > BGS Main Editor` This is where most settings are changed and data defined. This editor has tabs along the top to seperate main sections of the editor. BGS plug-ins will add their own tabs when they need you to configure some data.
+`menu: BGS > BGS Main Editor` This is where most settings are changed and data defined. This editor has tabs along the top to separate main sections of the editor. BGS plug-ins will add their own tabs when they need you to configure some data.
+
+**Game Data**
+
+`menu: BGS > Game Data Editor` This will open the Game Data system's editor where you can define new game data types or add data to the definitions.
 
 **FlowGraph**
 
-`menu: BGS > Global FlowGraph` This editor allows you to edit FlowGraphs. FlowGraphs are mainly used for creating story flow/ character dialogue or conversation. There are also FlowGraphs for getting and setting data. These are mainly used by the BGS UI updaters.
+`menu: BGS > FlowGraph Editor` This editor allows you to edit FlowGraphs. FlowGraphs are mainly used for creating story flow/ character dialogue or conversation. There are also FlowGraphs for getting and setting data. These are mainly used by the BGS UI updaters.
 

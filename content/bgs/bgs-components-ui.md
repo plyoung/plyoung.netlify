@@ -18,6 +18,16 @@ This panel can either show predefined buttons or automatically add/remove button
 - container: Where new buttons are added. It is best if this object has a layout component on it to automatically reposition buttons as they get added or removed.
 - buttonTemplate: The template or prefab to use when a new button must be added.
 
+##### GUI/Panels/Confirmation Panel
+
+This panel can be used to provide the player with some information or a question that needs to be confirmed. This panel is normally needed by other panels, like the profiels panel and saving/ loading related UI panels.
+
+- acceptButton: The button used to accept the request (OK, Yes, Accept).
+- declineButton: The button used to decline the request (Cancel, No).
+- message: (optional) The text message shown to player.
+- acceptButtonText: (optional) Element used to shown text on accept button.
+- declineButtonText: (optional) Element used to show text on decline button.
+
 ##### GUI/Panels/Dialogue Panel
 
 The default dialogue panel. A dialogue panel is needed when you make use of the Dialogue Panel FlowGraph node. Custom dialogue panels may be created by deriving from the `DialoguePanelBase` class.
@@ -51,6 +61,62 @@ The panel manager is used to show and hide panels (or any child objects of this 
 - activeAtStart: The panel which should be set active at start.
 - ignore: The objects to ignore. Any child objects not in this list will automatically be set inactive at start.
 
+##### GUI/Panels/Text Input Panel
+
+This general purpose panel can be used to ask the player to enter some text. This kind of panel might be required while setting up other, like the profiles panel.
+
+- closeButtons: The button(s) which will close the panel. There should be at least 1 with the 1st being the button for 'accepting' the input while a second button can be used to 'cancel input'.
+- inputField: The input field where the player will enter text.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#### Persistence
+
+These UI components help with creating a UI around the persistence system, used for saving and restoring the player's game session.
+
+##### GUI/Panels/Persistence/Profiles Panel
+
+If you make use of player profiles then you will want to create this UI to give the player a way to create or select a profile to play with.
+
+- buttons: The profile buttons. The player click on these create or select a profile.
+	+ profileButton: The button on which the profile name will be shown. On click a new profile is created when this profile is empty, else the profile will be loaded and this panel closed.
+	+ profileNameText: (optional) The label used to show the profile name on the button.
+	+ deleteButton: (optional) The button used to delete this profile.
+- emptyProfileName: (optional) Text to be shown on profile buttons for profiles that are empty.
+- nameEntryPanel: A panel used to enter a profile name.
+- nameNotificationPanel: (optional) A panel shown to warn the player that a duplicate or invalid profile name was entered.
+- notificationText: (optional) Text to show on notification panel. No text on the target panel will be replaced if you entered nothing here.
+- autoLoadCreated: Auto-load and trigger 'onProfileLoaded' when a new profile is created?
+- deleteConfirmationPanel: (optional) A confirmation panel to show when player selects to delete a profile.
+- confirmationText: (optional) Text to show on confirmation panel. No text on the target panel will be replaced if you entered nothing here.
+- onProfileLoaded: The event(s) to perform after a profile was loaded. This is a good place to close this panel and load the main menu.
+
+##### GUI/Panels/Persistence/Save Panel
+
+A panel used to create a new save slot or overwrite an existing save slot.
+
+- slotTemplate: Template used to create [slot buttons](#gui-panels-persistence-elements-save-slot-button). This should be an object in the scene under the same container that all slots will be added to.
+- newSlotButton: Button used to create a new slot.
+- dateTimeFormat: What the date and time should look like on the slot's date-time text field. Default: "yyyy-MM-dd HH:mm". You can learn more about this string's format [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
+- overrideConfirmationPanel: (optional) A confirmation panel to show when player selects to override an existing slot.
+- confirmationText: (optional) Text to show on confirmation panel. No text on the target panel will be replaced if you entered nothing here.
+
+##### GUI/Panels/Persistence/Load Panel
+
+A panel from where the player can select a game session to restore.
+
+- slotTemplate: Template used to create [slot buttons](#gui-panels-persistence-elements-load-slot-button). This should be an object in the scene under the same container that all slots will be added to.
+- loadButton: Button used to load selected slot.
+- deleteButton: (optional) Button used to delete selected slot.
+- dateTimeFormat: What the date and time should look like on the slot's date-time text field. Default: "yyyy-MM-dd HH:mm". You can learn more about this string's format [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
+- slotText: (optional) Where selected slot's slot text should be shown.
+- slotDatetime: (optional) Where selected slot's DateTime text should be shown.
+- slotImage: (optional) Where selected slot's screenshot should be shown.
+- deleteConfirmationPanel: (optional) A confirmation panel to show when player selects to delete a slot.
+- confirmationText: (optional) Text to show on confirmation panel. No text on the target panel will be replaced if you entered nothing here.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 #### Elements
 
 ##### GUI/Elements/Buttons Panel Button
@@ -58,6 +124,25 @@ The panel manager is used to show and hide panels (or any child objects of this 
 This component is required on buttons used with the [Default Buttons Panel](#gui-panels-buttons-panel)
 
 - label: Label shown on the Button.
+
+##### GUI/Panels/Persistence/Elements/Save Slot Button
+
+Used by the [Save Panel](#gui-panels-persistence-save-panel)
+
+- slotText: (optional) Slot text will be shown here if there is slot text.
+- dateTimeText: (optional) DateTime text. Last time this slot was saved to.
+- thumb: (optional) Thumbnail of the save screenshot will be shown here.
+
+##### GUI/Panels/Persistence/Elements/Load Slot Button
+
+Used by the [Load Panel](#gui-panels-persistence-load-panel)
+
+- slotText: (optional) Slot text will be shown here if there is slot text.
+- dateTimeText: (optional) DateTime text. Last time this slot was saved to.
+- thumb: (optional) Thumbnail of the save screenshot will be shown here.
+- selectedIndicator: (optional) This object will be set active for the 'selected' slot button. This can be a frame to highlight which slot is selected.
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 #### Settings
 
@@ -76,6 +161,8 @@ Place on a TMPro Dropdown to allow a player to change resolution.
 ##### GUI/Elements/Settings/Sound Volume Slider
 
 Place on a slider, allowing player to change a volume type's value.
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 #### Updaters
 

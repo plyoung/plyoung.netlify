@@ -7,10 +7,12 @@ pre = "<b> </b>"
 
 # VN Engine
 
-[<i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Asset Store](https://assetstore.unity.com/publishers/380) | 
-[<i class="fa fa-youtube" aria-hidden="true"></i> Videos](https://www.youtube.com/playlist?list=PLuaBtUXEKcdK9UtD8rx3tYMfLzPRawwOV)
+[<i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Asset Store](https://assetstore.unity.com/publishers/380)
+&nbsp;&nbsp;|&nbsp;&nbsp;
+[<i class="fa fa-youtube" aria-hidden="true"></i> Videos](/tutorials/)
 
-The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph nodes and other systems commonly needed while developing a visual novel type game. Some of these systems might also be useful to other types of games so please have a look at what is provided and if it can be useful to you when working with Blox Game Systems.
+The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph nodes and other systems commonly needed while developing a visual novel type game. Some of these systems might also be useful to other types of games so please have a look at what is provided and whether it can be useful to you when working with Blox Game Systems.
+
 
 #### Features
 
@@ -21,12 +23,9 @@ The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph no
 	+ Start and end game.
 	+ Change backgrounds.
 	+ Character actions to enter scene, exit scene, and change pose.
-	+ Create background scale adapted image overlays.
+	+ Create background scale adapted image overlays.	
+- Handling of the dialogue is already done by BGS' FLowGraph and UI components. Have a look at the BGS features to learn more about what else you can do when with this pug-in combined with BGS.
 
-#### Planned features (in development)
-
-- Hotspot Overlays helps you create areas of a background which the player can click on to trigger an event (short term)
-- Integration with BGS' Localization system, when that is done (short term)
 
 #### Supported Build Targets
 
