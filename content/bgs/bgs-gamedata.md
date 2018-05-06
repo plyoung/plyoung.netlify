@@ -26,7 +26,7 @@ When you click the add or edit buttons you will be presented with a window to ed
 **Asset (or definition type)** is where you select what kind of game data it is.
 
 - None: This means you are not creating an asset (a definition you can directly add data to) but rather a type that will be used when adding fields to other definitions. This is here in case you want to group certain data for whatever reason.
-- Single: This is the simplest data type and will allow you do edit data related to fields you added to this definition. This is a good choice for data which represents a singular thing, for example a Player's data.
+- Single: This is the simplest data type and will allow you to edit data related to fields you added to this definition. This is a good choice for data which represents a singular thing, for example a Player's data.
 - List: You will use this when you want to create more than one piece of data related to this definition. For example, you might define the Character Classes used in your game. There might be a Mage, a Warrior, and a Rogue. These are all separate pieces of data/ entities but they share similar fields. So you would want to create one definition which can hold a list of these classes.
 - Grouped: This is similar to List but allows you to group the lists. This is useful when you will be creating a large amount of entries and it makes sense to group these entries in some way. For example if you created a definition to hold a list of all Sprites used in the game and want to group it to Player sprites, Monsters sprites, and NPC sprites.
 
