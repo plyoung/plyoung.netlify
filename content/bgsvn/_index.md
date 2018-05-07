@@ -24,7 +24,7 @@ The Visual Novel Engine for Blox Game Systems adds new UI elements, FlowGraph no
 	+ Change backgrounds.
 	+ Character actions to enter scene, exit scene, and change pose.
 	+ Create background scale adapted image overlays.	
-- Handling of the dialogue is already done by BGS' FLowGraph and UI components. Have a look at the BGS features to learn more about what else you can do when with this pug-in combined with BGS.
+- Handling of the dialogue is already done by BGS' FlowGraph and UI components. Have a look at the BGS features to learn more about what else you can do when with this pug-in combined with BGS.
 
 
 #### Supported Build Targets

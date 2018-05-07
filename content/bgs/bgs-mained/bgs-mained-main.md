@@ -15,7 +15,11 @@ BGS requires the `Assets/projectData/Scenes/00-bootstrap` scene to be first in t
 
 You will note two buttons in front of scene button (name). The 1st is used to tell BGS which scenes should be loaded when the game is run and in what order. This is for a build of the game and not while testing in editor, although the BGS Play Button, or `menu: BGS > Start Game`, will honor this startup order since it is used to test a "typical flow" of the game.
 
-The second button is used to tell BGS which scenes should be auto loaded when you test a game scene via the Unity Play button. This is useful when the scene you are about to test has dependencies on GameObject defined in another scene. This other scene can be auto loaded by BGS if you mark it with this button.
+The second button is used to tell BGS which scenes should be treated specially.
+
+Setting a scene to **auto-load** will cause the scene to auto-load when you test a game scene via the Unity Play button. This is useful when the scene you are about to test has dependencies on GameObject defined in another scene. This other scene can be auto loaded by BGS if you mark it with this button.
+
+The **loading screen** option tells that the scene should be shown as soon as the bootstrap is loaded, after the splash screen, and stay up until loading of all scenes are completed and then be unloaded. This is a way to show something on screen while the game is taking long to complete loading resources. You should not set objects in this sene to "not destroy on load" else those objects will not auto-unload when the scene is unloaded, except of course if you have a reason to do so.
 
 ### Main Settings
 

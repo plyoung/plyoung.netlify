@@ -27,6 +27,7 @@ The VN Engine adds a new component `menu: Component > BGS  > VN > VN Engine`. Th
 
 There will normally be only one Unity scene which contains the main controller and your UI. All dialogue and story is created in the FlowGraph editor and you point to the start of your VN (the graph to start with) via the main controller.
 
+- PreLoad Linked Graphs: Should all linked FlowGraphs be loaded when the main game graph loads or only when they are needed?
 - Game Graph: This is the graph to execute when a new game is started. The VN engine can be instructed to start a new game via the `VN Engine > Start New Game` FlowGraph node.
 - VN Camera: The main 2D camera. Used when calculating what the size of a background image should be for example.
 - Menu UI: The GameObject containing the "main menu" of your game.
