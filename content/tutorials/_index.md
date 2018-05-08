@@ -7,13 +7,12 @@ pre = "<b> </b>"
 
 ### Samples
 
-Samples projects can be downloaded from these locations. [Please report](http://forum.plyoung.com/) any broken samples. Have a look at the included readme.txt to learn more about the samples/ packages included.
+- **Readme:** Have a look at the included readme.txt to learn more about the samples/ packages included.
+- Samples projects can be downloaded from these locations. [Please report](http://forum.plyoung.com/) any broken samples.
 
 - [<i class="fa fa-archive" aria-hidden="true"></i> Download Samples](https://drive.google.com/open?id=1ctNqLmApO_LY4urGycIK0rdafdGOBLyj)
 
 ### Tutorials/ Videos
-
-This is a list of video tutorials covering various aspect of Blox Game Systems and its plug-ins. 
 
 - **Readme:** Watch the Blox Game Systems play list even if you are interested in one of its plug-ins. The play list covers topics I do not repeat in plug-in videos.
 - Note that these tools are continuously being improved and changes might occur that are not presented on the videos (since they might cover an older version). If something does not look quite right in the video simply look at the documentation to learn how a feature might have changed from what is said in the video. The documentation is always the final say on how something works.
