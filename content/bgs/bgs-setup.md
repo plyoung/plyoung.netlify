@@ -9,7 +9,7 @@ This page will explain the steps to take when creating a new Blox Game Systems (
 
 **1) .NET 4.x**
 
-After creating a new project you need to make sure that the scripting runtime is set to **.NET 4.x**. There will be errors if this is not set. Go to the player settings `menu: Edit > Project Settings > Player` and find the **Scripting runtime version** option. If you had to change this you will need to restart Unity now.
+After creating a new project you need to make sure that the scripting runtime is set to **.NET 4.x**. There will be errors if this is not set this before importing BGS. Go to the player settings `menu: Edit > Project Settings > Player` and find the **Scripting runtime version** option. If you had to change this you will need to restart Unity now.
 
 **Api Compatibility Level** should be set to `.NET 4.x`, not `.NET Standard 2.0`.
 
