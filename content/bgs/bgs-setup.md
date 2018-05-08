@@ -11,6 +11,8 @@ This page will explain the steps to take when creating a new Blox Game Systems (
 
 After creating a new project you need to make sure that the scripting runtime is set to **.NET 4.x**. There will be errors if this is not set. Go to the player settings `menu: Edit > Project Settings > Player` and find the **Scripting runtime version** option. If you had to change this you will need to restart Unity now.
 
+**Api Compatibility Level** should be set to `.NET 4.x`, not `.NET Standard 2.0`.
+
 **2) Packages: TextMesh Pro**
 
 [TextMesh Pro](https://assetstore.unity.com/search?q=textmesh&q=pro) is a replacement for Unity's default UI text rendering. You are probably using this already. This can be installed via the Unity Package Manager `menu: Window > Package Manager`.
