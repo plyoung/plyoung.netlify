@@ -44,3 +44,6 @@ _These are not yet available and will be part of the Blox Visual Scripting syste
 All variables that can be defined using the same visual editor. 
 
 The [+] button is used to add a new variable. This will bring up a window where you can enter a unique name for the variable and choose the type of value it will hold. Variable names must be unique per group of variables. The name can be edited the variable is defined but type can not be changed.
+
+
+ 
