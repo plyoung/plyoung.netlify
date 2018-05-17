@@ -15,9 +15,9 @@ The Game Data definitions can be accessed via other systems, like the FlowGraph 
 
 It is a powerful, yet simple to use, system and editor. The difficult part will be deciding on what kind of data you need and how it should be organized and presented in the editor.
 
-### Definition List
-
 ![GameData](/images/gamedata/01.png?classes=border,shadow)
+
+### Definition List
 
 You will see a list of all your data definition in the list to the left-hand side of the editor. Use the [+] button to add a new definition. You will first need to add a group for the definition if there are not any groups yet.
 

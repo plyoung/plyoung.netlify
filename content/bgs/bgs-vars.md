@@ -27,7 +27,7 @@ These variables can be saved and restored via the persistence system.
 
 Blackboards are normally available on systems which will be executing FlowGraph graphs. These include systems like the UI updaters, VN Engine's main component, etc. The Blackboard will be on the component and you can add and edit variables as needed. Blackboard can normally add new variables as needed if not predefined.
 
-These variables can not be saved and restored since they are considered temporary.
+These variables *might* be saved and restored via the persistence system. It depends on how they are used. The VNEngine component, in the VN Engine plug-in, save and restore the values of its Blackboard for example.
 
 **Blox Variables**
 
