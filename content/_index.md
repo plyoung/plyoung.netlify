@@ -19,35 +19,11 @@ title = "plyoung"
 <!-- Vinoma -->
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/36826/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
 
-<!-- UniRPG -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/51078/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
 <!-- TileEd -->
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/49094/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
 
 <!-- MapNav -->
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/27837/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- Way-point Maker -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/99073/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- GameMap -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/94641/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- EdGames -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/100763/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- Favourites panel -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/107297/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- EdNotes -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/100761/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- War machines -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/2358/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
-
-<!-- plyProto -->
-<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/10275/widget-light" style="width:202px; height:260px; border:0px;"></iframe>
 
 ## Games & Prototypes
 
