@@ -15,7 +15,7 @@ After creating a new project you need to make sure that the scripting runtime is
 
 **2) Packages: TextMesh Pro**
 
-[TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126) is a replacement for Unity's default UI text rendering. You are probably using this already. You should install the version from the Asset Store, not via the Unity Package Manager `menu: Window > Package Manager`.
+[TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126) is a replacement for Unity's default UI text rendering. You are probably using this already. I suggest you use the version from the Unity Package Manager `menu: Window > Package Manager` rather than the Asset Store since that will be the version supported from the next BSG version (0.16) moving forward. You will need [this small patch](http://forum.plyoung.com/t/bgs-updates/4971/11) for BGS 0.15 though.
 
 **3) Packages: DoTween**
 
