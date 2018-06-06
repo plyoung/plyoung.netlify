@@ -66,8 +66,3 @@ Blox Game Systems (BGS) is a core system which provide features to game-genre sp
 	+ Dialogue, Button, and Generic panel components for use by the associated FlowGraph nodes (for example to show a conversation with a character).
 	+ Profile, Save, and Load panel components for handling UI around player session saving and loading (persistence).
 
-
-#### Planned features (in development)
-
-- Localization system (short term)
-- Blox Visual Scripting (long term)
