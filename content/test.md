@@ -8,6 +8,6 @@ A test page
 
 <a href="https://cf9n.app.link?module=module_a">Open Module A</a>
 
-<a href="https://cf9n.app.link?module=module_b">Open Module B</a>
+<a href="https://cf9n.app.link?module%3Dmodule_b">Open Module B</a>
 
 
