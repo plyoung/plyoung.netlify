@@ -4,11 +4,10 @@ title = "Test Page"
 
 A test page
 
-[Link 1](jawalan://open/test)
+<a href="jawalan://open/?test=123">Link 1</a>
 
-[Link 2](jawalan://test)
+<a href="jawalan://coza.fuzzylogic.jawalan/?test=123">Link 2</a>
 
-[Link 3](https://plyoung.test-app.link/jawalan)
+<a href="https://plyoung.test-app.link/jawalan">Link 3</a>
 
-<a href="http://www.plyoung.com/" data-applink="jawalan://profile">Open</a>
 
