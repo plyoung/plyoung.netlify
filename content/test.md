@@ -2,7 +2,7 @@
 title = "Test Page"
 +++
 
-A. <a href="jawalan://open">Open Jawalan</a>
+A. <a href="jawalan://open">jawalan://open</a> (Open Jawalan)
 
 B. <a href="https://cf9n.app.link?module=module_a">https://cf9n.app.link?module=module_a</a> (Open Module A)
 
