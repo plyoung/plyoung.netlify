@@ -4,7 +4,7 @@ title = "Test Page"
 
 A test page
 
-[Link 1](jawalan://)
+[Link 1](jawalan://open/test)
 
 [Link 2](jawalan://test)
 
