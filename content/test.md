@@ -10,5 +10,5 @@ A test page
 
 [Link 3](https://plyoung.test-app.link/jawalan)
 
-<a href="https://www.plyoung.com/" data-applink="jawalan://profile">Open</a>
+<a href="http://www.plyoung.com/" data-applink="jawalan://profile">Open</a>
 
