@@ -5,9 +5,9 @@ title = "Jawalan Test Page"
 A. Open Stand-alone:<br>
 <a href="jawalan://open">jawalan://open</a>
 <br><br>
-B. Open Module A:<br>
-<a href="https://jawalan.app.link/?module=a">https://jawalan.app.link/?module=a</a>
+B. Open AR Module 1:<br>
+<a href="https://jawalan.app.link/?module=ar1">https://jawalan.app.link/?module=ar1</a>
 <br><br>
-C. Open Module B<br>
-<a href="https://jawalan.app.link/?module=b">https://jawalan.app.link/?module=b</a>
+C. Open AR Module 2<br>
+<a href="https://jawalan.app.link/?module=ar2">https://jawalan.app.link/?module=ar2</a>
 <br><br>
