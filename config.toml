@@ -6,7 +6,7 @@ theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-  name = "Leslie Young"
+  name = "PL Young"
 
 [params]
 
@@ -40,6 +40,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     icon = "mastodon"
     title = "Mastodon"
     url = "https://mastodon.social/@plyoung"
+
+  [[params.links]]
+    icon = "youtube"
+    title = "Youtube"
+    url = "https://www.youtube.com/channel/UCbrbCz7ZG4zdnB0XjbqdFzA"
 
   [params.colors]
     background = "#322a40"
