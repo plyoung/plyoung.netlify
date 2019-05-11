@@ -2,7 +2,7 @@ baseURL = "http://www.plyoung.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "plyoung"
-theme = "hello"
+theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
@@ -11,9 +11,36 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 [params]
 
   [[params.links]]
+    icon = "itch-io"
+    title = "itch.io"
+    url = "https://plyoung.itch.io/"
+
+  [[params.links]]
+    iconset = "fas"
+    icon = "dice-d6"
+    title = "Unity Asset Store"
+    url = "https://assetstore.unity.com/publishers/380"
+
+  [[params.links]]
     icon = "github"
     title = "Github"
     url = "https://github.com/plyoung/"
+
+  [[params.links]]
+    icon = "patreon"
+    title = "Patreon"
+    url = "https://www.patreon.com/plyoung"
+
+  [[params.links]]
+    icon = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/pl_young"
+
+  [[params.links]]
+    icon = "mastodon"
+    title = "Mastodon"
+    url = "https://mastodon.social/@plyoung"
+
 
   #[params.colors]
   #  background = "#81c6ff"
