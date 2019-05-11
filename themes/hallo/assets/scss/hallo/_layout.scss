@@ -6,6 +6,10 @@ main {
     display: flex;
     margin-top: 20vh;
 
+    .spacer {
+        height: 0.4em;
+    }
+
     .column.left {
         text-align: end;
     }
@@ -18,7 +22,7 @@ main {
 
         h2 {
             margin-left: -4px; /* Correction for margin of leftmost character. */
-            margin-top: 0.4em;
+            margin-top: 0;
         }
         
         .links {

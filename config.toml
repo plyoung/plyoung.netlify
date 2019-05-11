@@ -41,9 +41,8 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     title = "Mastodon"
     url = "https://mastodon.social/@plyoung"
 
-
-  #[params.colors]
-  #  background = "#81c6ff"
-  #  foreground = "#edf7ff"
-  #  hover = "#ffba82"    
+  [params.colors]
+    background = "#000000"
+    foreground = "#edf7ff"
+    hover = "#ffba82"    
 
