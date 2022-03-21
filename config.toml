@@ -16,10 +16,19 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     url = "https://plyoung.itch.io/"
 
   [[params.links]]
-    iconset = "fas"
-    icon = "dice-d6"
-    title = "Unity Asset Store"
-    url = "https://assetstore.unity.com/publishers/380"
+    icon = "steam"
+    title = "Steam"
+    url = "https://store.steampowered.com/dev/plyoung"
+
+  [[params.links]]
+    icon = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/pl_young"
+
+  [[params.links]]
+    icon = "youtube"
+    title = "Youtube"
+    url = "https://www.youtube.com/channel/UCbrbCz7ZG4zdnB0XjbqdFzA"
 
   [[params.links]]
     icon = "github"
@@ -30,21 +39,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     icon = "patreon"
     title = "Patreon"
     url = "https://www.patreon.com/plyoung"
-
-  [[params.links]]
-    icon = "twitter"
-    title = "Twitter"
-    url = "https://twitter.com/pl_young"
-
-  [[params.links]]
-    icon = "mastodon"
-    title = "Mastodon"
-    url = "https://mastodon.social/@plyoung"
-
-  [[params.links]]
-    icon = "youtube"
-    title = "Youtube"
-    url = "https://www.youtube.com/channel/UCbrbCz7ZG4zdnB0XjbqdFzA"
 
   [params.colors]
     background = "#322a40"
