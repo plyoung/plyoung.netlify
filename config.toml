@@ -28,7 +28,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
   [[params.links]]
     icon = "youtube"
     title = "Youtube"
-    url = "https://www.youtube.com/channel/UCbrbCz7ZG4zdnB0XjbqdFzA"
+    url = "https://www.youtube.com/c/PLYoung"
 
   [[params.links]]
     icon = "github"
