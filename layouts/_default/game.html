@@ -1,0 +1,31 @@
+{{- define "main" }}
+<section class="game-container container-fluid" style="background-color:{{.Params.BackColor}};color:{{.Params.TextColor}} !important;">
+
+  <figure>
+    <img src="{{.Params.Image | absURL}}" width="100%" layout="responsive"></img>
+  </figure>
+
+  <div class="grid game-content">
+    <div class="game-description">
+      <div class="game-stores">
+        {{range $v := .Params.Stores }}
+          <a href="{{ $v.url }}" title="{{ $v.title | default .name }}" target="_blank">
+            <img src="{{ $v.image }}"></img>
+          </a>&nbsp;
+        {{end}}
+      </div>
+  
+      {{- if not (.Param
+      "disableAnchoredHeadings") }} {{- partial "anchored_headings.html"
+      .Content -}} {{- else }}{{ .Content }}{{ end }}
+    </div>
+    <div class="game-screenshots">
+      {{range .Params.screenshots }}
+      <figure>
+        <a href="{{ . }}" target="_blank"><img src="{{ . }}"></img></a>
+      </figure>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{- end }}{{/* end main */}}
