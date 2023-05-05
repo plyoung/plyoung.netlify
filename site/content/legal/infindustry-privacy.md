@@ -8,7 +8,7 @@ description: This is the privacy policy page for the game, Infindustry
 ---
 ## Privacy Policy ##
 
-PLYOUNG built the commerical game, Infindustry. This game is provided by PLYOUNG and is intended for use as is.
+PLYOUNG built the commerical game, [Infindustry](/game/infindustry/). This game is provided by PLYOUNG and is intended for use as is.
 
 ## Information Collection and Use ##
 
