@@ -6,7 +6,20 @@
       <h1>{{ .Title }}</h1>
       <h2>{{ .Description }}</h2>
     </hgroup>
-    <form name="contact" method="POST" action="{{ .Site.Params.contactFormAction | relURL }}" >
+
+    <div style="text-align: center;">
+      <a href="https://discord.gg/VWWXxJaKBj" target="_blank">
+        <img src="/uploads/badge_discord.png"></img>
+      </a>
+      &nbsp;
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfroxnefmO4hLV4BTGM6NC8Ix1ZE1psYtN3BFH95cmVTyhRYw/viewform?usp=sf_link" target="_blank">
+        <img src="/uploads/badge_contact.png"></img>
+      </a>
+
+      <!-- <iframe id="contact-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSfroxnefmO4hLV4BTGM6NC8Ix1ZE1psYtN3BFH95cmVTyhRYw/viewform?embedded=true" width="640" height="687" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+    </div>
+
+    <!-- <form name="contact" method="POST" action="{{ .Site.Params.contactFormAction | relURL }}" >
         <input name="_redirect" type="hidden" id="name" value="{{"/thanks/" | absURL}}">
         <input name="_formsubmit_id" type="text" hidden>
         <div class="grid">
@@ -16,10 +29,10 @@
             <input type="text" id="firstname" name="firstname" placeholder="Name" required>
           </label>
       
-          <!-- <label for="lastname">
+          <label for="lastname">
             Last name
             <input type="text" id="lastname" name="lastname" placeholder="Last name">
-          </label> -->
+          </label>
       
         </div>
       
@@ -32,7 +45,7 @@
       
         <input type="submit">
       
-      </form>
+      </form> -->
     </div>
 </div>
 {{ end }}
