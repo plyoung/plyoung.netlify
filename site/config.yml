@@ -98,6 +98,10 @@ params:
     portfolioTitle: Games
     portfolioDescription: 
     portfolio:
+    - imageUrl: /uploads/logo_slimyharvest.webp
+      alt: Slimy Harvest
+      description: Slimy Harvest
+      websiteUrl: "/game/slimy-harvest"
     - imageUrl: /uploads/logo_infindustry.webp
       alt: Infindustry
       description: Infindustry
@@ -105,7 +109,7 @@ params:
     - imageUrl: /uploads/logo_rcdash.webp
       alt: RC Dash
       description: RC Dash
-      websiteUrl: "/game/rc-dash"
+      websiteUrl: "/game/rc-dash"      
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
