@@ -6,7 +6,7 @@ layout: game
 searchHidden: false
 url: /game/slimy-harvest
 image: "/uploads/slimyharvest/logo.png"
-backColor: "#1a005a"
+backColor: "#202020"
 textColor: "#d0b436"
 screenshots: 
 - "/uploads/slimyharvest/screen1.jpg"
