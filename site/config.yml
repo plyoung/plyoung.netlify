@@ -122,10 +122,10 @@ params:
       alt: Oh my. UFOz!
       description: Oh my. UFOz!
       websiteUrl: "/game/ufoz"
-    - imageUrl: /uploads/logo_muschine.webp
-      alt: Mushcine
-      description: Mushcine
-      websiteUrl: "/game/muschine"
+    - imageUrl: /uploads/logo_muchine.webp
+      alt: Muchine
+      description: Muchine
+      websiteUrl: "/game/muchine"
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
