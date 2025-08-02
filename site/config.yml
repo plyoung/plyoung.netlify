@@ -102,14 +102,30 @@ params:
       alt: Slimy Harvest
       description: Slimy Harvest
       websiteUrl: "/game/slimy-harvest"
-    - imageUrl: /uploads/logo_infindustry.webp
-      alt: Infindustry
-      description: Infindustry
-      websiteUrl: "/game/infindustry"
     - imageUrl: /uploads/logo_rcdash.webp
       alt: RC Dash
       description: RC Dash
       websiteUrl: "/game/rc-dash"      
+    - imageUrl: /uploads/logo_infindustry.webp
+      alt: Infindustry
+      description: Infindustry
+      websiteUrl: "/game/infindustry"
+    - imageUrl: /uploads/logo_battlemass2.webp
+      alt: Battlemass 2
+      description: Battlemass 2
+      websiteUrl: "/game/battlemass2"
+    - imageUrl: /uploads/logo_peterblock.webp
+      alt: Peter Block
+      description: Peter Block
+      websiteUrl: "/game/peter-block"
+    - imageUrl: /uploads/logo_ufoz.webp
+      alt: Oh my. UFOz!
+      description: Oh my. UFOz!
+      websiteUrl: "/game/ufoz"
+    - imageUrl: /uploads/logo_muschine.webp
+      alt: Mushcine
+      description: Mushcine
+      websiteUrl: "/game/muschine"
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
