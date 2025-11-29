@@ -110,6 +110,10 @@ params:
       alt: Epic Games
       description: Epic Games
       websiteUrl: "https://store.epicgames.com/browse?q=plyoung"
+    - imageUrl: /uploads/badge_stove.png
+      alt: STOVE
+      description: STOVE
+      websiteUrl: "https://store.onstove.com/store/search?q=plyoung"
     # - imageUrl: /uploads/logo_slimyharvest.webp
     #   alt: Slimy Harvest
     #   description: Slimy Harvest
