@@ -98,34 +98,46 @@ params:
     portfolioTitle: Games
     portfolioDescription: 
     portfolio:
-    - imageUrl: /uploads/logo_slimyharvest.webp
-      alt: Slimy Harvest
-      description: Slimy Harvest
-      websiteUrl: "/game/slimy-harvest"
-    - imageUrl: /uploads/logo_rcdash.webp
-      alt: RC Dash
-      description: RC Dash
-      websiteUrl: "/game/rc-dash"      
-    - imageUrl: /uploads/logo_infindustry.webp
-      alt: Infindustry
-      description: Infindustry
-      websiteUrl: "/game/infindustry"
-    - imageUrl: /uploads/logo_battlemass2.webp
-      alt: Battlemass 2
-      description: Battlemass 2
-      websiteUrl: "/game/battlemass2"
-    - imageUrl: /uploads/logo_peterblock.webp
-      alt: Peter Block
-      description: Peter Block
-      websiteUrl: "/game/peter-block"
-    - imageUrl: /uploads/logo_ufoz.webp
-      alt: Oh my. UFOz!
-      description: Oh my. UFOz!
-      websiteUrl: "/game/ufoz"
-    - imageUrl: /uploads/logo_muchine.webp
-      alt: Muchine
-      description: Muchine
-      websiteUrl: "/game/muchine"
+    - imageUrl: /uploads/badge_itchio.png
+      alt: Itchio
+      description: Itchio
+      websiteUrl: "https://plyoung.itch.io/"
+    - imageUrl: /uploads/badge_steam.png
+      alt: Steam
+      description: Steam
+      websiteUrl: "https://store.steampowered.com/developer/plyoung"
+    - imageUrl: /uploads/badge_epic.png
+      alt: Epic Games
+      description: Epic Games
+      websiteUrl: "https://store.epicgames.com/browse?q=plyoung"
+    # - imageUrl: /uploads/logo_slimyharvest.webp
+    #   alt: Slimy Harvest
+    #   description: Slimy Harvest
+    #   websiteUrl: "/game/slimy-harvest"
+    # - imageUrl: /uploads/logo_rcdash.webp
+    #   alt: RC Dash
+    #   description: RC Dash
+    #   websiteUrl: "/game/rc-dash"      
+    # - imageUrl: /uploads/logo_infindustry.webp
+    #   alt: Infindustry
+    #   description: Infindustry
+    #   websiteUrl: "/game/infindustry"
+    # - imageUrl: /uploads/logo_battlemass2.webp
+    #   alt: Battlemass 2
+    #   description: Battlemass 2
+    #   websiteUrl: "/game/battlemass2"
+    # - imageUrl: /uploads/logo_peterblock.webp
+    #   alt: Peter Block
+    #   description: Peter Block
+    #   websiteUrl: "/game/peter-block"
+    # - imageUrl: /uploads/logo_ufoz.webp
+    #   alt: Oh my. UFOz!
+    #   description: Oh my. UFOz!
+    #   websiteUrl: "/game/ufoz"
+    # - imageUrl: /uploads/logo_muchine.webp
+    #   alt: Muchine
+    #   description: Muchine
+    #   websiteUrl: "/game/muchine"
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
